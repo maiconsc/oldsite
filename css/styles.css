@@ -385,6 +385,7 @@ h1 {
 	color: #111;
 	text-align: justify;
 	padding-top: 35px;
+	padding-left: 10px;
 	font-family: Roboto,Arial,sans-serif;
 	font-size: 14.5px;
 }
@@ -398,11 +399,14 @@ h1 {
 	padding-bottom: 5px;
 }
 
+.right-contact {
+}
+
 input, textarea {
 
 	padding: 10px;
 	border: 1px solid #c7c7c7;
-	width: 90%;
+	width: 100%;
 	color: #444;
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
 	-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
@@ -410,12 +414,12 @@ input, textarea {
 }
 
 textarea {
-	width: 90%;
+	width: 100%;
 	height: 100px;
 	line-height: 18px;
-	max-width: 90%;
+	max-width: 100%;
 	min-height: 40px;
-	min-width: 90%;
+	min-width: 100%;
 }
 
 input:hover, textarea:hover,
